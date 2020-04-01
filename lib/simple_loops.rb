@@ -15,7 +15,7 @@ end
 def output_array(array)
   place = 0 
   while place < array.index do
-    puts "#{array[index]}"
+    puts "#{array[place]}"
     place += 1 
   end
 end
