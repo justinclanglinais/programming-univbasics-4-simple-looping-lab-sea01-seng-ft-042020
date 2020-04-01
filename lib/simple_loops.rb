@@ -1,5 +1,4 @@
 # Write your methods here
-require 'pry' 
 
 def loop_message_five_times(string)
   5.times do
@@ -18,6 +17,5 @@ def output_array(array)
   while place < array.index do
     puts "#{array[index]}"
     place += 1 
-    binding.pry 
   end
 end
