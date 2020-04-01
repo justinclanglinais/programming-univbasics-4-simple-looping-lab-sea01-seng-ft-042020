@@ -13,11 +13,14 @@ def loop_message_n_times(string,number)
 end
   
 def output_array(array)
-  place = 0 
-  while place < array.length do
+  counter = 0 
+  while counter < array.length do
     puts "#{array[place]}"
-    place += 1 
+    counter += 1 
   end
 end
 
 def return_string_array(array)
+  counter = 0 
+  while counter < array.length do
+    
