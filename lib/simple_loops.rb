@@ -15,12 +15,19 @@ end
 def output_array(array)
   counter = 0 
   while counter < array.length do
-    puts "#{array[place]}"
+    puts "#{array[counter]}"
     counter += 1 
   end
 end
 
 def return_string_array(array)
+  new_array = []
   counter = 0 
   while counter < array.length do
+    new_var = array[counter].to_s 
+    new_array << new_var
+    counter +=
+  end
+  return new_array
+end
     
