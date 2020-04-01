@@ -14,7 +14,7 @@ end
   
 def output_array(array)
   place = 0 
-  while place < array.index do
+  while place < array.length do
     puts "#{array[place]}"
     place += 1 
   end
