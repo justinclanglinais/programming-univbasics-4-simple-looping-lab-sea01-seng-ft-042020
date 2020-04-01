@@ -19,3 +19,5 @@ def output_array(array)
     place += 1 
   end
 end
+
+def return_string_array(array)
